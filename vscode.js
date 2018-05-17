@@ -1,14 +1,12 @@
 {
     "window.zoomLevel": -1,
-    "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontSize": 14,
-    "editor.lineHeight": 20,
     "workbench.editor.tabSizing": "shrink",
     "html.format.enable": true,
     "html.format.preserveNewLines": true,
     "files.trimTrailingWhitespace": true,
     "editor.tabSize": 2,
-    "editor.wordWrap": "on",
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 100,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.fontWeight": "400",
     "editor.cursorBlinking": "solid",
@@ -20,9 +18,9 @@
     "gitlens.blame.line.enabled": false,
     "editor.renderWhitespace": "all",
     "editor.rulers": [
-        80,
         100,
-        120
+        120,
+        140
     ],
     "editor.minimap.showSlider": "always",
     "workbench.startupEditor": "newUntitledFile",
