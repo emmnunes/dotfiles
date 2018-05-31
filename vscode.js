@@ -34,7 +34,8 @@
         "**/.next": true
     },
     "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
+        "javascript": "javascriptreact",
+        "erb": "html"
     },
     // show snippets before any other auto completion
     "editor.snippetSuggestions": "top",
@@ -49,5 +50,7 @@
         "editor.formatOnSave": false
     },
     "eslint.autoFixOnSave": true,
-    "eslint.alwaysShowStatus": true
+    "eslint.alwaysShowStatus": true,
+    "workbench.colorTheme": "One Dark Pro",
+    "explorer.autoReveal": false
 }
